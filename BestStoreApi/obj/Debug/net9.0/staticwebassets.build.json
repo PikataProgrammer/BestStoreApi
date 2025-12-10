@@ -1,0 +1,949 @@
+{
+  "Version": 1,
+  "Hash": "z6kU5btuz3J+xpUzg5YDxjBlea7XObB1iue8t7u3VFE=",
+  "Source": "BestStoreApi",
+  "BasePath": "_content/BestStoreApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BestStoreApi\\wwwroot",
+      "Source": "BestStoreApi",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209164626519.png",
+      "SourceId": "BestStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "RelativePath": "images/products20251209164626519#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a5iohlonp3",
+      "Integrity": "Iim1/2iPnJziKiVh3/9DkpC7VplA3DzNJBozEI2r/6c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products20251209164626519.png"
+    },
+    {
+      "Identity": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209164733410.png",
+      "SourceId": "BestStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "RelativePath": "images/products20251209164733410#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r22eqmeyd5",
+      "Integrity": "A9QmlqxERBUS5ktp96JFAEMV2C1XvbmZDXouXqgAXfQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products20251209164733410.png"
+    },
+    {
+      "Identity": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209170723823.png",
+      "SourceId": "BestStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "RelativePath": "images/products20251209170723823#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ut65wp3w29",
+      "Integrity": "LvpSUXhB28ucogppR0xik32gXR99EihfXguwPwejTyU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products20251209170723823.png"
+    },
+    {
+      "Identity": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209171723846.png",
+      "SourceId": "BestStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "RelativePath": "images/products20251209171723846#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jwt3qq529d",
+      "Integrity": "3XPpPL8P3WmxZXTFJo3HauzuMvRBNHfNyrG9ldBPv7Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products20251209171723846.png"
+    },
+    {
+      "Identity": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103128262.png",
+      "SourceId": "BestStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "RelativePath": "images/products20251210103128262#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jcs0b1aoi3",
+      "Integrity": "g77fUm/NbX4qn3qwzPxcP5fMyZv4Fcm+hy/dmSe7+C8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products20251210103128262.png"
+    },
+    {
+      "Identity": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103141125.png",
+      "SourceId": "BestStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "RelativePath": "images/products20251210103141125#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ju1q2k664x",
+      "Integrity": "233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products20251210103141125.png"
+    },
+    {
+      "Identity": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103146993.png",
+      "SourceId": "BestStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "RelativePath": "images/products20251210103146993#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ju1q2k664x",
+      "Integrity": "233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products20251210103146993.png"
+    },
+    {
+      "Identity": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103149876.png",
+      "SourceId": "BestStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "RelativePath": "images/products20251210103149876#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ju1q2k664x",
+      "Integrity": "233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products20251210103149876.png"
+    },
+    {
+      "Identity": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103201315.png",
+      "SourceId": "BestStoreApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\",
+      "BasePath": "_content/BestStoreApi",
+      "RelativePath": "images/products20251210103201315#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ju1q2k664x",
+      "Integrity": "233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products20251210103201315.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/products20251209164626519.a5iohlonp3.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209164626519.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Iim1/2iPnJziKiVh3/9DkpC7VplA3DzNJBozEI2r/6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 14:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a5iohlonp3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products20251209164626519.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Iim1/2iPnJziKiVh3/9DkpC7VplA3DzNJBozEI2r/6c="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251209164626519.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209164626519.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7431"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Iim1/2iPnJziKiVh3/9DkpC7VplA3DzNJBozEI2r/6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 14:46:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Iim1/2iPnJziKiVh3/9DkpC7VplA3DzNJBozEI2r/6c="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251209164733410.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209164733410.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2828591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A9QmlqxERBUS5ktp96JFAEMV2C1XvbmZDXouXqgAXfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 14:47:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A9QmlqxERBUS5ktp96JFAEMV2C1XvbmZDXouXqgAXfQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251209164733410.r22eqmeyd5.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209164733410.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2828591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A9QmlqxERBUS5ktp96JFAEMV2C1XvbmZDXouXqgAXfQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 14:47:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r22eqmeyd5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products20251209164733410.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A9QmlqxERBUS5ktp96JFAEMV2C1XvbmZDXouXqgAXfQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251209170723823.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209170723823.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1895076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LvpSUXhB28ucogppR0xik32gXR99EihfXguwPwejTyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 15:07:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LvpSUXhB28ucogppR0xik32gXR99EihfXguwPwejTyU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251209170723823.ut65wp3w29.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209170723823.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1895076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LvpSUXhB28ucogppR0xik32gXR99EihfXguwPwejTyU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 15:07:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ut65wp3w29"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products20251209170723823.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LvpSUXhB28ucogppR0xik32gXR99EihfXguwPwejTyU="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251209171723846.jwt3qq529d.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209171723846.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "960642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3XPpPL8P3WmxZXTFJo3HauzuMvRBNHfNyrG9ldBPv7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 15:17:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwt3qq529d"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products20251209171723846.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XPpPL8P3WmxZXTFJo3HauzuMvRBNHfNyrG9ldBPv7Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251209171723846.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251209171723846.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "960642"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3XPpPL8P3WmxZXTFJo3HauzuMvRBNHfNyrG9ldBPv7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 09 Dec 2025 15:17:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3XPpPL8P3WmxZXTFJo3HauzuMvRBNHfNyrG9ldBPv7Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103128262.jcs0b1aoi3.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103128262.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g77fUm/NbX4qn3qwzPxcP5fMyZv4Fcm+hy/dmSe7+C8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jcs0b1aoi3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products20251210103128262.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g77fUm/NbX4qn3qwzPxcP5fMyZv4Fcm+hy/dmSe7+C8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103128262.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103128262.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g77fUm/NbX4qn3qwzPxcP5fMyZv4Fcm+hy/dmSe7+C8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:31:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g77fUm/NbX4qn3qwzPxcP5fMyZv4Fcm+hy/dmSe7+C8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103141125.ju1q2k664x.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103141125.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:31:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ju1q2k664x"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products20251210103141125.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103141125.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103141125.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:31:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103146993.ju1q2k664x.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103146993.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:31:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ju1q2k664x"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products20251210103146993.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103146993.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103146993.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:31:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103149876.ju1q2k664x.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103149876.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ju1q2k664x"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products20251210103149876.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103149876.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103149876.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:31:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103201315.ju1q2k664x.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103201315.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:32:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ju1q2k664x"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products20251210103201315.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk="
+        }
+      ]
+    },
+    {
+      "Route": "images/products20251210103201315.png",
+      "AssetFile": "C:\\IG Engeneering - work\\BestStoreApi\\BestStoreApi\\wwwroot\\images\\products20251210103201315.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135184"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 10 Dec 2025 08:32:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-233y6wZBAGoUKNDIJL/uonyxs+T2tYnJ6elaeWED4hk="
+        }
+      ]
+    }
+  ]
+}
