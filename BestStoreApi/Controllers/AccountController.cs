@@ -116,6 +116,74 @@ public class AccountController : ControllerBase
         return Ok(response);
     }
 
+    [HttpPost("ForgotPassword")]
+    public IActionResult ForgotPassword(string email)
+    {
+        var user = _context.Users.FirstOrDefault(e => e.Email == email);
+        if (user == null)
+        {
+            return BadRequest(ModelState);
+        }
+        //delete any  old password reset request
+        var pswReset = _context.PasswordResets.FirstOrDefault(e => e.Email == user.Email);
+
+        if (pswReset != null)
+        {
+            //delete old password reset request
+            _context.Remove(pswReset);
+        }
+        
+        //create password Reset Token
+        string token = Guid.NewGuid().ToString() + "-" + Guid.NewGuid().ToString();
+        PasswordReset passwordReset = new PasswordReset()
+        {
+            Email = user.Email,
+            Token = token,
+            CreatedAt = DateTime.Now
+        };
+        
+        _context.PasswordResets.Add(passwordReset);
+        _context.SaveChanges();
+        
+        string emailSubject = "Password Reset";
+        string username = user.FirstName + " " + user.LastName;
+        string emailMessage = "Dear " + username + "\n" + 
+                              "We recieved your password reset request.\n" + 
+                              "Please copy the following token and paste it in the Password Reset Form:\n" + 
+                              token + "\n\n" + 
+                              "Best Regards\n";
+
+        // emailSender.SendEmail(emailSubject, email,  username, emailMessage).Wait();
+        return Ok();
+    }
+
+    [HttpPost("ResetPassword")]
+    public IActionResult ResetPassword(string token, string newPassword)
+    {
+        var pwdReset = _context.PasswordResets.FirstOrDefault(e => e.Token == token);
+        if (pwdReset == null)
+        {
+            ModelState.AddModelError("Token", "Wrong or expired token");
+            return BadRequest(ModelState);
+        }
+        var user = _context.Users.FirstOrDefault(e => e.Email == pwdReset.Email);
+        if (user == null)
+        {
+            ModelState.AddModelError("Token", "Wrong or expired token");
+            return BadRequest(ModelState);
+        }
+        
+        //encrypt password
+        var passwordHasher = new PasswordHasher<User>();
+        string encryptedPassword = passwordHasher.HashPassword(new User(), newPassword);
+        //save the new encrypted password
+        user.Password = encryptedPassword;
+        //delete the token
+        _context.PasswordResets.Remove(pwdReset);
+        
+        _context.SaveChanges();
+        return Ok();
+    }
     // [Authorize]
     // [HttpGet("GetTokenClaims")]
     // public IActionResult GetTokenClaims()

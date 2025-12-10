@@ -160,3 +160,4 @@ C:\IG Engeneering - work\BestStoreApi\BestStoreApi\bin\Debug\net9.0\Scrutor.dll
 C:\IG Engeneering - work\BestStoreApi\BestStoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Filters.dll
 C:\IG Engeneering - work\BestStoreApi\BestStoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\IG Engeneering - work\BestStoreApi\BestStoreApi\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\IG Engeneering - work\BestStoreApi\BestStoreApi\obj\Debug\net9.0\BestStoreApi.sourcelink.json
