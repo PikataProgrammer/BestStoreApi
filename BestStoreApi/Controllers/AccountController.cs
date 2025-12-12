@@ -1,4 +1,5 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+﻿using System.ComponentModel.DataAnnotations;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using BestStoreApi.Dtos;
@@ -184,6 +185,91 @@ public class AccountController : ControllerBase
         _context.SaveChanges();
         return Ok();
     }
+
+    [Authorize]
+    [HttpGet("Profile")]
+    public IActionResult GetProfile()
+    {
+        int id = JwtReader.GetUserId(User);
+        
+        var user = _context.Users.Find(id);
+        if (user == null)
+        {
+            return Unauthorized();
+        }
+
+        var userProfileDto = new UserProfileDto()
+        {
+            Id = user.Id,
+            FirstName = user.FirstName,
+            LastName = user.LastName,
+            Email = user.Email,
+            Phone = user.Phone,
+            Address = user.Address,
+            Role = user.Role,
+            CreatedAt = user.CreatedAt
+        };
+        
+        return Ok(userProfileDto);
+    }
+
+
+    [Authorize]
+    [HttpPut("UpdateProfile")]
+    public IActionResult UpdateProfile(UserProfileUpdateDto userProfileUpdateDto)
+    {
+        int id = JwtReader.GetUserId(User);
+        
+        var user = _context.Users.Find(id);
+        if (user == null)
+        {
+            return Unauthorized();
+        }
+        user.FirstName = userProfileUpdateDto.FirstName;
+        user.LastName = userProfileUpdateDto.LastName;
+        user.Email = userProfileUpdateDto.Email;
+        user.Phone = userProfileUpdateDto.Phone ?? "";
+        user.Address = userProfileUpdateDto.Address;
+         
+        _context.SaveChanges();
+        
+        var userProfileDto = new UserProfileDto()
+        {
+            Id = user.Id,
+            FirstName = user.FirstName,
+            LastName = user.LastName,
+            Email = user.Email,
+            Phone = user.Phone,
+            Address = user.Address,
+            Role = user.Role,
+            CreatedAt = user.CreatedAt
+        };
+        return Ok(userProfileDto);
+    }
+
+    [Authorize]
+    [HttpPut("UpdatePassword")]
+    public IActionResult UpdatePassword([Required, MinLength(8), MaxLength(100)] string password)
+    {
+        int id = JwtReader.GetUserId(User);
+        
+        var user = _context.Users.Find(id);
+        if (user == null)
+        {
+            return Unauthorized();
+        }
+        
+        //encrypt password
+        var passwordHasher = new PasswordHasher<User>();
+        string encryptedPassword = passwordHasher.HashPassword(new User(), user.Password);
+        
+        //update user password
+        user.Password = encryptedPassword;
+        _context.SaveChanges();
+        
+        return Ok();
+    }
+    
     // [Authorize]
     // [HttpGet("GetTokenClaims")]
     // public IActionResult GetTokenClaims()

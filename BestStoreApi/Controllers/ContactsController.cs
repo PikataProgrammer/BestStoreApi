@@ -1,6 +1,7 @@
 ﻿using BestStoreApi.Dtos;
 using BestStoreApi.Models;
 using BestStoreApi.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,6 +23,7 @@ public class ContactsController : ControllerBase
         return Ok(listSubjects);
     }
 
+    [Authorize(Roles = "admin")]
     [HttpGet]
     public IActionResult GetContacts(int? page)
     {
@@ -52,7 +54,7 @@ public class ContactsController : ControllerBase
         
         return Ok(response);
     }
-
+    [Authorize(Roles = "admin")]
     [HttpGet("{id}")]
     public IActionResult GetContactById(int id)
     {
@@ -88,35 +90,36 @@ public class ContactsController : ControllerBase
         
         return Ok(newContact);
     }
+    //
+    // [HttpPut("{id}")]
+    // public IActionResult UpdateContact(int id, ContactDto contact)
+    // {
+    //     var subject = _context.Subjects.Find(contact.SubjectId);
+    //     if (subject == null)
+    //     {
+    //         ModelState.AddModelError("Subject", "Subject does not exist");
+    //         return BadRequest(ModelState);
+    //     }
+    //     var existingContact = _context.Contacts.Find(id);
+    //
+    //     if (existingContact == null)
+    //     {
+    //         return NotFound();
+    //     }
+    //
+    //     existingContact.FirstName = contact.FirstName;
+    //     existingContact.LastName = contact.LastName;
+    //     existingContact.Email = contact.Email;
+    //     existingContact.Phone = contact.Phone ?? string.Empty;
+    //     existingContact.Subject = subject;
+    //     existingContact.Message = contact.Message;
+    //     
+    //     _context.SaveChanges();
+    //     
+    //     return Ok(existingContact);
+    // }
 
-    [HttpPut("{id}")]
-    public IActionResult UpdateContact(int id, ContactDto contact)
-    {
-        var subject = _context.Subjects.Find(contact.SubjectId);
-        if (subject == null)
-        {
-            ModelState.AddModelError("Subject", "Subject does not exist");
-            return BadRequest(ModelState);
-        }
-        var existingContact = _context.Contacts.Find(id);
-
-        if (existingContact == null)
-        {
-            return NotFound();
-        }
-
-        existingContact.FirstName = contact.FirstName;
-        existingContact.LastName = contact.LastName;
-        existingContact.Email = contact.Email;
-        existingContact.Phone = contact.Phone ?? string.Empty;
-        existingContact.Subject = subject;
-        existingContact.Message = contact.Message;
-        
-        _context.SaveChanges();
-        
-        return Ok(existingContact);
-    }
-
+    [Authorize(Roles = "admin")]
     [HttpDelete("{id}")]
     public IActionResult DeleteContact(int id)
     {
